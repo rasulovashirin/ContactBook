@@ -101,7 +101,7 @@ elContactForm.addEventListener('submit', function(evt){
   elContactList.appendChild(fragment);
   // Options
   options.push(who);
-
+  elRelationshipList.innerHTML = '';
   options.forEach(function(option){
     var newOption = document.createElement('option');
     newOption.textContent = option;
